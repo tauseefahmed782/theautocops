@@ -1,0 +1,17 @@
+.brands{
+    background-color: #111;
+    padding: 40px 0px;
+}
+.brands .slide_container {
+    display: flex!important;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    justify-content: center;
+  }
+  
+  .brands .slide_container img {
+    max-height: 100%;
+    max-width: 100%;
+  
+  }

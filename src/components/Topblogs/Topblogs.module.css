@@ -1,0 +1,30 @@
+.topblogimg
+{
+  
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+}
+.card {
+    margin-bottom: 15px;
+}
+.heading
+{
+    margin: px;
+    font-size: 18px;
+
+}
+.blogdate{
+    
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.see_deatils {
+    color: #ff6830!important;
+    text-decoration: none;
+}
+.recent_heading {
+    font-size: 28px;
+    margin-bottom: 24px;
+}

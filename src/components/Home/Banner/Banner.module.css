@@ -1,0 +1,133 @@
+.banner .hero_img::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background: #BE4043;
+    right: 100px;
+    bottom: 100px;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -5;
+}
+.banner {
+    position: relative;
+}
+.banner h6{
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -.66px;
+}
+.banner h1{
+    color: var(--text-color);
+    font-family: poppins, Sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 30px;
+    letter-spacing: -1.56px;
+}
+.banner h1 span{
+    color: var(--secondary-color);
+}
+.banner p{
+    color: var(--text-color);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -.24px;
+}
+.banner button {
+    color: #fff!important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: capitalize;
+    line-height: 19px;
+    letter-spacing: -.32px;
+    border-radius: 3px 3px 3px 3px;
+    
+    padding: 18px 26px;
+}
+.banner  .btn_Book_ride{
+background-color: var(--theme-color);
+}
+.banner .btn_learn{
+    background: var(--bg-color);
+    margin-left: 10px;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .35);
+}
+.btn_learn{
+    background: var(--bg-color);
+    color: #fff;
+    padding: 12px 24px;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .35);
+}
+.icon {
+    margin-left: 14px;
+}
+
+/* .fullScreenBg{
+    background-image: url('/path-to-your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+} */
+
+.fullScreenBg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/carousel/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.sliderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.brand{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.modelName{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+    line-height: normal;
+}
+.bodyType{
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 16px;
+    border-left: 1px solid #fff;
+    margin-top: 16px;
+}
+.modelYear{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #eeeeee;
+}
+.price{
+    font-size: 20px;
+    color: #fe7a36;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.carImg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

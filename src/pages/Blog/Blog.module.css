@@ -1,0 +1,42 @@
+.mainheading
+{
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-weight: 600;
+}
+.blogoneimage
+{
+    margin: 20px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+.mainheader
+{
+    height: 300px;
+}
+.blogheading
+{
+
+    font-size: 32px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.blogcontent
+{
+   margin-top: 15px;
+    color: #686868;
+    font-size: 16px;
+}
+.blog_btn{
+    font-size: 16px ;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 24px;
+    background-color: #DE4317;
+    min-width: max-content;
+  
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

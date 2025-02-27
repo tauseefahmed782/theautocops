@@ -1,0 +1,140 @@
+.maincontainer {
+    background-color: #fff;
+    padding-top: 90px;
+}
+
+.HeadingColor {
+    color: #000000 !important;
+}
+
+.search_card {
+    /* margin: 0px 0px 80px 0px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .03); */
+    padding: 0px 120px;
+    background: #fff;
+    /* border-radius: 10px; */
+
+}
+
+.search_card h3 {
+    font-weight: 500;
+    color: var(--heading-color);
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.btn_search {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 18px;
+    background: #152C56;
+    /* box-shadow: 0 10px 15px rgba(255, 83, 48, .35); */
+    border-radius: 0px;
+    border: none;
+    font-family: 'Roboto'
+}
+.btn_search:hover{
+    background: #1e3866;
+
+}
+
+/* .select {
+    font-size: .875rem;
+    color: #ababab;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    font-weight: 400;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-right: 1.875rem;
+    box-shadow: none !important;
+    padding-left: 1.25rem;
+} */
+
+.select {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 36px;
+    padding-left: 24px;
+
+
+    border: none;
+    color: #24272C;
+    font-size: 16px;
+    border-radius: 0;
+    background: transparent;
+    appearance: none;
+    /* Remove default browser styling */
+    -webkit-appearance: none;
+    /* For Safari */
+    -moz-appearance: none;
+    /* For Firefox */
+    position: relative;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><path fill="%2324272C" d="M0 3l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 12px 12px;
+}
+
+.divider {
+    border-right: 2px solid #24272C15;
+}
+
+.label {
+    font-size: 14px;
+    color: var(--text-color);
+}
+.btn_clear {
+    width: auto;
+    padding: 10px 20px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+    .maincontainer{
+        padding: 60px 24px!important;
+        padding-bottom: 0px!important;
+    }
+    .search_card{
+        padding: 0px;
+    }
+    .divider{
+        border: none;
+    }
+    .car_list {
+        padding: 0px 24px;
+    }
+    .btn_clear{
+        width: 100%;
+        position: unset;
+    }
+    
+.main_page {
+    margin-top: 30px;
+    margin-bottom: 60px
+}
+   }
+
+   .car_list {
+
+    text-align: center;
+}
+
+.main_page {
+    margin-top: 32px;
+    margin-bottom: 80px
+}
+
+.main_page .sub_heading{
+    color: #152c56;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}

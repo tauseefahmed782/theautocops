@@ -1,0 +1,12 @@
+.marvels {
+    margin-bottom: 80px;
+}
+@media screen and (max-width: 767px) {
+    .marvels {
+        margin-bottom: 60px;
+        padding: 0px 24px;
+    }
+}
+.wrapperCOntainer{
+  overflow: hidden;
+}

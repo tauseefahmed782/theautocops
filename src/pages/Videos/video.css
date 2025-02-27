@@ -1,0 +1,114 @@
+
+.sec-pd {
+    padding: 60px 0;
+}
+
+
+.video-page-top-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75)), url(../../Images/videos/breadcrumb-banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.video-page-top-banner h1, .video-page-top-banner p {
+    color: #fff;
+}
+
+.sec-sub-heading{
+    line-height: 22px;
+    color: rgb(21, 44, 86);
+    font-size: 24px;
+}
+
+.video-content{
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+.video-content h3{
+    color: #0d2048;
+    font-size: 16px !important;
+    text-decoration: none;
+    transition: .3s ease-in;
+}
+
+.video-content p {
+    font-size: 14px;
+    color: #111010;
+}
+
+.thumbnail-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.vidoe-btn {
+    z-index: 2;
+    top: calc(50% - 38px);
+    left: calc(50% - 38px);
+}
+
+.category-main {
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
+
+.video-category-box {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    background-color: #fff;
+    text-decoration: none;
+    height: 100%;
+}
+
+.video-box-flex .video-thumbnail{
+    width: 40%;
+}
+
+.video-box-flex .video-content{
+    width: 60%;
+    background-color: #fff;
+}
+
+.video-box-flex .vidoe-btn{
+    top: calc(50% - 24px);
+    left: calc(50% - 24px);
+}
+.video-box-flex h3 {
+    font-size: 15px!important;
+}
+
+.video-box-flex p {
+    font-size: 12px;
+}
+
+.video-category-box p{
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #111010;
+    margin-bottom: 0;
+}
+ 
+@media screen and (max-width: 767px) {
+    .sec-pd {
+        padding: 50px 24px ;
+    }
+    .video-page-top-banner {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .category-main {
+        margin-top: 1.5rem;
+    }
+  }

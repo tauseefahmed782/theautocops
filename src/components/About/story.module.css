@@ -1,0 +1,51 @@
+.founding_story h6 {
+    color: var(--theme-color);
+    margin-bottom: 12px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+
+.founding_story h3 {
+    color: #111111;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.founding_story p {
+    color: #686868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-bottom: 0px;
+    line-height: normal;
+}
+
+.founding_story img {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.founding_story {
+    margin: 80px 0px 80px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .founding_story h3 {
+        font-size: 32px;
+    }
+
+    .founding_story p:nth-last-child(1) {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .founding_story {
+        padding: 60px 24px 60px 24px;
+        margin: 0px !important;
+    }
+}

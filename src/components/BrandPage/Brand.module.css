@@ -1,0 +1,25 @@
+.brand_details h2 , .brand_details h3 , .brand_details h1{
+    color: #111111;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.brand_details{
+    padding: 50px 0px;
+}
+.brand_details p{
+    color: #686868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-bottom: 0px;
+    line-height: normal;
+}
+.brand_details ul{
+    color: #686868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;  
+}

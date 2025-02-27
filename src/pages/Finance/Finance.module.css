@@ -1,0 +1,50 @@
+.contact_card{
+    background-color: #161C28;
+    border-radius: 12px;
+    padding: 40px;
+}
+.my80{
+    margin-top: 80px;
+    margin-bottom:30px;
+}
+.sectionHeading{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color: #343434;
+    line-height: normal;
+}
+.sectionParagraph{
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.pr4{
+    padding-right: 32px;
+}
+@media screen and (max-width: 767px) {
+   .my80{
+    margin-top: 60px;
+    /* padding: 0px 24px; */
+    margin-bottom: 0px;
+   } 
+   .pr4{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 60px;
+   }
+   .sectionHeading{
+    font-size: 24px;
+    margin-bottom: 16px;
+   }
+   .contact_card{
+    padding: 20px;
+   }
+}
+@media screen and (max-width: 575px) {
+    .my80{
+        padding: 0px 24px;
+
+    }
+ }

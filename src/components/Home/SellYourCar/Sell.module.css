@@ -1,0 +1,21 @@
+
+.sell_your_car{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.step_card {
+    padding: 0px 30px;
+}
+.step_card .heading {
+    margin: 0 0 10px;
+    color: var(--text-color);
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.step_card .description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+   
+}

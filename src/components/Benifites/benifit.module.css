@@ -1,0 +1,39 @@
+.benifit {
+    color: #0d2048;
+font-size: 2.5rem;
+font-weight: 600;
+margin-top: 50px;
+}
+.icon_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.benifit_card{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.icon_box img{
+width: 62px;
+height: 62px;
+}
+.box_content h5{
+    color: #0d2048;
+    font-weight: 500;
+}
+.box_content p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 767px) {
+
+.benifit_card{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
+}

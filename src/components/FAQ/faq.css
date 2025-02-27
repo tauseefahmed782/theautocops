@@ -1,0 +1,30 @@
+.faq_sec {
+    background-color: #fff;
+    padding: 60px 0px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .heading{
+    
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+
+  
+
+    .accordion-button {
+        line-height: 1.8 !important;
+        font-weight: 500 !important;
+    }
+
+    .accordion-body {
+        line-height: 1.7 !important;
+    }
+    .faq_sec{
+        padding-left:  24px;
+        padding-right:  24px;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,358 @@
+:root {
+    --theme-color: #152C56;
+    --secondary-color: #DE4317;
+    --primary-font: 'Poppins', sans-serif;
+    --heading-color: #152C56;
+    --text-color: #282828;
+    --secondary-text: #817f91;
+    --bg-color: linear-gradient(-36deg, var(--secondary-color) 0, #ff6830 100%);
+}
+
+* {
+    font-family: var(--primary-font);
+
+}
+
+body {
+    background-color: #fff;
+}
+.width-50 {
+    width: 50%;
+  }
+
+.heading {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: normal;
+}
+.form_search{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.main_page .heading span {
+    color: var(--secondary-color);
+}
+
+.main_page .sub_heading {
+    color: #152C56;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+
+}
+
+.theme-text {
+    color: var(--secondary-text);
+}
+
+.btn-custom {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #fff !important;
+    padding: 18px 30px;
+    background-image: var(--bg-color);
+    box-shadow: 0 10px 15px rgba(255, 83, 48, .35);
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    transition: all .4s ease-in-out;
+
+}
+
+
+
+.rs-slider-progress-bar {
+    background-color: #0d2048 !important;
+}
+
+.rs-slider-handle:before {
+    border-color: #0d2048a8;
+}
+
+/* .rs-slider-track {
+    background-color: #08143f !important;
+} */
+
+/* Customize the range */
+/* .rs-slider-bar {
+    background-color: #05153b !important;
+} */
+
+#shopNowTabs .nav-tabs,
+.nav-tabs .nav-link {
+    align-items: self-end;
+    margin: 0px !important;
+    gap: 8px !important;
+}
+
+#shopNowTabs .nav-tabs .nav-link {
+    background-color: #152C56;
+    color: white;
+    font-size: 17px !important;
+    text-transform: uppercase;
+    border-radius: 4px 4px 0 0;
+    padding: 12px 40px;
+
+}
+
+#shopNowTabs .nav-tabs .nav-link.active {
+    background-color: #F2F2F2;
+    color: #24272C;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    text-transform: uppercase;
+    border-radius: 4px 4px 0 0;
+    padding: 16px 40px;
+}
+
+#shopNowTabs .tab-content .tab-pane {
+    background-color: #F2F2F2;
+    border-radius: 0 12px 12px 12px;
+    padding: 0px 20px;
+}
+
+.container-fluid.bg-f2f2f2 {
+    border-radius: 0 0 4px 4px;
+}
+
+.form-select:focus {
+    border-color: #494f57 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 .10rem rgb(97 106 118 / 25%) !important;
+
+}
+
+.slick-dots {
+    bottom: 35px !important;
+    left: 7%;
+    width: 93% !important;
+    text-align: left;
+    display: none!important;
+}
+
+.slick-dots li button {
+    background: url(../Images/sliderItems/SliderNavigation.png);
+    text-indent: -9999px;
+    overflow: hidden;
+    /* more CSS */
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 5px;
+    padding: 0px;
+}
+
+.slick-dots li.slick-active button {
+    background: url(../Images/sliderItems/activeNav.png);
+    width: 40px;
+
+}
+
+.slick-dots li.slick-active {
+    width: 40px !important;
+
+}
+
+/* SliderStyles.css */
+.market_marvels .slick-slide img {
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+    /* width: 100%!important; */
+}
+
+.market_marvels .slick-center img {
+    transform: scale(1);
+    /* Increase the size of the centered image */
+}
+
+.market_marvels .slick-slide {
+
+    transition: opacity 0.3s ease;
+}
+
+.market_marvels .slick-center {
+    opacity: 1;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media screen and (max-width: 767px) {
+    .container{
+        
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .heading {
+        font-size: 32px;
+    }
+
+    #shopNowTabs .tab-content .tab-pane {
+        padding-bottom: 20px;
+    }
+
+    .market_marvels .slick-slide img {
+
+        width: 100% !important;
+    }
+
+    /* .BannerImageAbout{
+        object-fit: contain;
+        object-position: center;
+
+        height: 400px;
+    } */
+}
+
+
+.loder {
+    padding: 300px 0px;
+}
+#loader-2 span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #152C56;
+  margin: 35px 5px;
+}
+
+#loader-2 span:nth-child(1){
+  animation: bounce 1s ease-in-out infinite;
+}
+
+#loader-2 span:nth-child(2){
+  animation: bounce 1s ease-in-out 0.33s infinite;
+}
+
+#loader-2 span:nth-child(3){
+  animation: bounce 1s ease-in-out 0.66s infinite;
+}
+
+@keyframes bounce{
+  0%, 75%, 100%{
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  25%{
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+
+/* LOADER 3 */
+
+/* SmilarCars.css */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  
+  .fade-in.loaded {
+    opacity: 1;
+  }
+  .list-group{
+    margin-left: 10px;
+
+  }
+  .list-group-item , .list-group-item a{
+    background-color: transparent!important;
+    border: none;
+    text-decoration: none;
+    color: #ff6830;
+  }
+  .list-group-item.active{
+    color: #fff;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 555;
+  }
+  
+  /* Modal content */
+  .modal-content {
+    background-color: white;
+    padding: 0px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .close{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  .close-btn
+  {
+    position: absolute;
+    right: 0;
+    
+  }
+
+
+
+
+@media screen and (max-width: 767px) {
+.single_pro_section, .custom_tabs {
+    padding: 0px 24px!important;
+}
+.width-50 {
+    width: 100%;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .top_sell_section h6 , .top_sell_section .heading{
+    padding: 0px 24px;
+  }
+  .testiminials .heading{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .blog_details{
+   
+    height: auto;
+ 
+  }
+  .list-group-horizontal-sm{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blog_container {
+    padding:0px 24px ;
+  }
+}
+
+
+.blog_details{
+  background: #152c56;
+  width: 100%;
+  padding: 50px 0px;
+  background-size: cover;
+
+}

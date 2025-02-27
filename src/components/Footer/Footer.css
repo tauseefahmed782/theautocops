@@ -1,0 +1,173 @@
+.footer {
+    background-color: var(--theme-color);
+    padding: 45px 88px 60px 108px;
+    z-index: 1;
+    color: #fff;
+    position: relative;
+
+}
+
+.footer_content {
+    margin-top: 50px;
+}
+
+.footer h3 {
+    margin-top: 30px;
+}
+
+.footer p {
+    margin-top: 36px;
+    color: #fff;
+    width: 293px;
+    margin-bottom: 77px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.social img {
+    margin-left: 9px;
+
+}
+.social img:first-child {
+    margin-left: 0px;
+
+}
+
+.social .twitter {
+    margin-left: 13px;
+}
+
+.icon-wrapper {
+    width: 56px;
+    height: 56px;
+    font-size: 28px;
+    background-color: #FE7A36 !important;
+    color: #fff;
+}
+
+.footer_col {}
+
+.footer_col h6 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 36px;
+    font-weight: 500;
+}
+.footerHeading {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.footer_col ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer_col ul li a {
+    color: #fff;
+}
+
+.footer_col ul li {
+    color: #fff;
+    font-size: 16px;
+    transition: .3s ease-in;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.footer_col ul li a:hover {
+    color: #FE7A36;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social_icons svg {
+    width: 25px;
+    height: 25px;
+    padding-right: 20px;
+}
+
+.phone-box {
+    margin-bottom: 40px;
+}
+
+.footer-sb-form button {
+    border-radius: 0 4px 4px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0px;
+    height: 100%;
+    background-color: #FE7A36;
+}
+
+.conact_info ul li {
+    margin-bottom: 15px;
+}
+
+.conact_info ul li svg {
+    margin-right: 5px;
+}
+
+/* footer_bottom */
+.footer_bottom {
+    background-color: #000;
+    height: 400px;
+    padding: 350px 0px 40px 0px;
+    margin-top: -320px;
+    z-index: -1;
+    
+}
+
+.footer_bottom .list-group-horizontal {
+    width: 100%;
+}
+
+/* styles.module.css */
+
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.listItem {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+.social a {
+    font-size: 30px!important;
+    color: #fff!important;
+    margin-right: 10px!important;
+
+   }
+@media screen and (max-width: 767px) {
+   .footer{
+    padding: 60px 24px;
+   }
+   .list{
+    flex-wrap: wrap;
+   }
+   .footer_bottom {
+    height: 100%;
+   }
+   .social{
+    margin-bottom: 36px;
+   }
+  
+   .footer_col h6{
+    margin-bottom: 20px;
+   
+   }
+     }

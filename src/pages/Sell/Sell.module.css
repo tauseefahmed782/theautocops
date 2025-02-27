@@ -1,0 +1,82 @@
+.Container {
+    overflow-x: hidden !important;
+}
+
+.my80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.mb80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sectionHeading {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #343434;
+    line-height: normal;
+}
+.highlighted {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #343434;
+    line-height: normal;
+}
+
+.sectionParagraph {
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.pr4 {
+    padding-right: 32px;
+    padding-left: 0px;
+}
+
+.imageSection {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+  @media screen and (max-width: 575px) {
+    .wrapperContainer{
+      padding: 60px 24px;
+     }
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .my80{
+     margin-top: 60px;
+     /* padding: 0px 24px; */
+     margin-bottom: 60px;
+    } 
+    .mb80{
+ 
+     margin-bottom: 60px;
+    } 
+    .pr4{
+     padding-right: 0px;
+     padding-left: 0px;
+     padding-bottom: 60px;
+    }
+    .sectionHeading{
+     font-size: 24px;
+     margin-bottom: 16px;
+    }
+    
+ }
+ @media screen and (max-width: 575px) {
+     .my80{
+         padding: 0px 24px;
+ 
+     }
+  }

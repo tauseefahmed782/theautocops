@@ -1,0 +1,20 @@
+.nav-tabs button{
+    background-color: #fff;
+    color: #0d2048;
+    font-size: 18px;
+    /* border-radius: 0px!important; */
+    border: none;
+}
+.nav-tabs .nav-link.active{
+    background-color: #0d2048;
+    color: #fff;
+    border: none;
+}
+
+.nav-tabs , .nav-tabs .nav-link{
+    border: none;
+}
+@media screen and (max-width: 767px) {
+    .nav-tabs{
+    }
+}

@@ -1,0 +1,53 @@
+.mainheading
+{
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-weight: 600;
+}
+.blogoneimage
+{
+    margin: 40px;
+    height: 300px;
+
+}
+.mainheader
+{
+    height: 300px;
+}
+.blog_heading
+{
+    font-size: 16px;
+    color: #111111;
+    font-weight: 500;
+}
+.blog_content
+{
+    color: #686868;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+.card
+{
+    height: 300px!important;
+}
+.blog_btn{
+    font-size: 14px ;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 24px;
+    background-color: #DE4317;
+    min-width: max-content;
+    margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+.mainheading
+{
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 600;
+}
+}

@@ -1,0 +1,27 @@
+.car_list {
+
+    text-align: center;
+}
+
+.main_page {
+    margin-top: 32px;
+    margin-bottom: 80px
+}
+
+.main_page .sub_heading{
+    color: #152c56;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+    .car_list {
+        padding: 0px 24px;
+    }
+    
+.main_page {
+    margin-top: 30px;
+    margin-bottom: 60px
+}
+}

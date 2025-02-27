@@ -1,0 +1,31 @@
+/* EXTRA SMALL DEVICES (PHONES, 600PX AND DOWN) */
+.form_style label{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: #111010;
+  display: block;
+}
+.form_style input{
+  font-size: 14px;
+    color: #c2c2c2;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(11, 22, 63, .07)!important;
+    border-radius: 4px;
+    padding: 8px 12px;
+    background: rgba(246, 246, 246, .1);
+}
+.form_style .button ,.section4 .button{
+  margin-top: 1rem;
+  background-color: #0d2048;
+  color: #fff;
+  font-size: 14px;
+  padding: 12px 30px;}
+
+  .form_style .button:hover, .section4 .button:hover{
+  background-color: #fff;
+  color: #0d2048;
+  border: 1px solid #0d2048;
+  }
+  

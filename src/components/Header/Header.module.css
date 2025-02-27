@@ -1,0 +1,40 @@
+.header_bg {
+    background: #FFFFFF;
+    padding: 10px 0px;
+}
+
+.btn_call {
+    background-color: #152C56;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 0px;
+}
+
+.btn_call:hover {
+    background-color: #1e3866;
+    color: #fff;
+
+}
+
+.header_bg a {
+    color: #111111;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header_bg a:hover {
+    color: var(--secondary-color) !important;
+}
+
+.navbar_menu a {
+    padding-left: 15px !important;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .mr2 {
+        margin-right: 16px !important;
+    }
+}

@@ -1,0 +1,30 @@
+.calculte_emi{
+    display: flex;
+    gap: 20px;
+}
+.spacer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 2px;
+    background: #0d2048;
+}
+.calculte_emi_card {
+    background-color: #fff;
+    padding: 40px 24px;
+}
+.spacer {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:#fafafa;
+    position: relative;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);}
+    .calculte_emi h5{
+        font-weight: 700;
+        line-height: 1.2;
+        color: #0d2048;
+    }
