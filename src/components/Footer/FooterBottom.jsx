@@ -14,6 +14,11 @@ const FooterBottom = () => {
     <div className="footer_bottom">
       <div className="container px-4 px-md-0">
         <div className="end">
+          <p style={{color:'#fff'}}>
+          Copyright © 2025 TheAutoCops, All rights reserved. Design and Developed by <Link to="https://theaceworks.com/">
+          Ace Works
+          </Link>
+          </p>
           {/* <ul className="list">
             {brands.length > 0 ? (
               brands.map(brand => (
